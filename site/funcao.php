@@ -1,6 +1,6 @@
 <?php
   function getConnection() {
-    $conexao = new PDO('pgsql:host=localhost;dbname=trabdw', 'postgres', 'postgres');
+    $conexao = new PDO('pgsql:host=localhost;dbname=tcc', 'simakaka', 'postgres');
     return $conexao;
   }
 
@@ -133,3 +133,4 @@
   }
 
  ?>
+
